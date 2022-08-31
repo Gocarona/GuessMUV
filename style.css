@@ -422,6 +422,9 @@ footer{
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid lightgrey;
+     color: #ffffff;
+    position: relative;
+    z-index: 10;
 }
 
 footer .total_que span{
