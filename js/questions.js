@@ -44,15 +44,15 @@ let questions = [
       "Hello"
     ]
   },
-    {
+     {
     numb: 5,
     question: " ",
     answer: "Jai Lava Kusha",
     options: [
-      "option 1",
-      "option 2",
+      "volcano",
+      "brother",
       "Jai Lava Kusha",
-      "option 4"
+      "jayam"
     ]
   },
   {
@@ -60,10 +60,10 @@ let questions = [
     question: " ",
     answer: "Oopiri",
     options: [
-      "Option 1",
+      "Shyam Singha Roy",
+      "Kaashmora",
       "Oopiri",
-      "option 3",
-      "option 4"
+      "Premam"
     ]
   },
   {
@@ -71,21 +71,21 @@ let questions = [
     question: " ",
     answer: "Fidha",
     options: [
-      "Option 1",
-      "option 2",
+      "Arya 2",
+      "Andhala Rakshasi",
       "Fidha",
-      "option 4"
+      "Rx 100"
     ]
   },
   {
     numb: 8,
     question: " ",
-    answer: "Agfe Of Ultron",
+    answer: "Age Of Ultron",
     options: [
-      "Option 1",
-      "option 2",
-      "option 3",
-      "Agfe Of Ultron"
+      "Terminator",
+      "Robots",
+      "all of us dead",
+      "Age Of Ultron"
     ]
   },
   {
@@ -93,10 +93,10 @@ let questions = [
     question: " ",
     answer: "Paisa Vasool",
     options: [
-      "Option 1",
+      "Money money more money",
       "Paisa Vasool",
-      "option 3",
-      "option 4"
+      "Kick",
+      "Khiladi"
     ]
   },
   {
@@ -104,9 +104,9 @@ let questions = [
     question: " ",
     answer: "Chandhamama Kathalu",
     options: [
-      "Option 1",
-      "option 2",
-      "option 3",
+      "c/o kancharapalem ",
+      "Moon Knight",
+      "Geethanjali",
       "Chandhamama Kathalu"
     ]
   },
