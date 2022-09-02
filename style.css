@@ -350,6 +350,15 @@ section .option_list{
     display: block;   
 }
 
+section .Power_txt{
+    color: #d3d3d3; 
+    font-size: 45%;  
+    font-family: sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+
 section .option_list .option{
     background: aliceblue;
     border: 1px solid #84c5fe;
