@@ -104,27 +104,27 @@ function showQuetions(index){
         case 3:
             que_tag = '<span>'+ '<img src="Q3Avengers.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
             break;
-        case 4:
-            que_tag = '<span>'+ '<img src="Q4Hello.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 5:
-            que_tag = '<span>'+ '<img src="Q5JLavakusha.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 6:
-            que_tag = '<span>'+ '<img src="Q6Oopiri.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 7:
-            que_tag = '<span>'+ '<img src="Q7Fidha.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 8:
-            que_tag = '<span>'+ '<img src="Q8Ageofultron.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 9:
-            que_tag = '<span>'+ '<img src="Q9Paisavasool.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
-        case 10:
-            que_tag = '<span>'+ '<img src="Q10chandhamama.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
-            break;
+//         case 4:
+//             que_tag = '<span>'+ '<img src="Q4Hello.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 5:
+//             que_tag = '<span>'+ '<img src="Q5JLavakusha.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 6:
+//             que_tag = '<span>'+ '<img src="Q6Oopiri.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 7:
+//             que_tag = '<span>'+ '<img src="Q7Fidha.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 8:
+//             que_tag = '<span>'+ '<img src="Q8Ageofultron.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 9:
+//             que_tag = '<span>'+ '<img src="Q9Paisavasool.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
+//         case 10:
+//             que_tag = '<span>'+ '<img src="Q10chandhamama.jpg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+//             break;
 
         default: 
             que_tag = '<span>'+'<h1>Something went wrong</h1>'+'<span>'
