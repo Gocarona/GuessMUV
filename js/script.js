@@ -243,7 +243,7 @@ function showQuetions(index){
             que_tag = '<span>'+ '<img src="Q48Sneham.jpeg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
             break;
         case 49:
-            que_tag = '<span>'+ '<img src="Q49RajaChora.jpeg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
+            que_tag = '<span>'+ '<img src="Q49Rajachora.jpeg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
             break;
         case 50:
             que_tag = '<span>'+ '<img src="Q50Malleswari.jpeg" alt="He is angry,Intellegent,Ranker,Lover" width="100%" height="75">'+'</span>';
