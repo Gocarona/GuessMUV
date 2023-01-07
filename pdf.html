@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="pdf.css" />
+    <script src="pdf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center mt-50 mb-50">
+        <div class="row">
+            <div class="col-md-12 text-right mb-3">
+                <button class="btn btn-primary" id="download"> download pdf</button>
+            </div>
+            <div class="col-md-12">
+                <div class="card" id="invoice">
+                    <div class="card-header bg-transparent header-elements-inline">
+                        <h6 class="card-title text-primary" id="kol">RESUME</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="mb-4 pull-left">
+
+                                    <ul class="list list-unstyled mb-0 text-left">
+                                        <input type="text" placeholder="Enter name" style="font-size: 17px; border: hidden;"></input>
+                                        <li><input type="text" placeholder="ph number" style="border: hidden;"></input></li>
+                                        <li><input type="text" placeholder="email id" style="border: hidden;"></input></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="mb-4 ">
+                                    <div class="text-sm-right">
+                                        <input type="text" placeholder="Fresher/Senior" style="font-size: 20px; border: hidden; color: crimson;"></input>
+                                        <ul class="list list-unstyled mb-0">
+                                            
+                                
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-md-flex flex-md-wrap">
+                            <div class="mb-4 mb-md-2 text-left"> <span class="text-muted">personal :</span>
+                                <ul class="list list-unstyled mb-0">
+                                    <li>
+                                        <h5 class="my-2">Hobbies</h5>
+                                    </li>
+                                    <li><input type="text" placeholder="Hobbie-1" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Hobbie-2" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Hobbie-3" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Hobbie-4" style="border: hidden;"></input></li>
+                                </ul>
+                            </div>
+                            <div class="mb-2 ml-auto"> <span class="text-muted">Professional details:</span>
+                                <div class="d-flex flex-wrap wmin-md-400">
+                                    <ul class="list list-unstyled mb-0 text-left">
+                                        <li>
+                                            <h5 class="my-2">Skills :</h5>
+                                        </li>
+                                    <li><input type="text" placeholder="C" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Java" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Python" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="Html" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="CSS" style="border: hidden;"></input></li>
+                                    </ul>
+                                    <ul class="list list-unstyled text-right mb-0 ml-auto">
+                                        <li>
+                                            <h5 class="font-weight-semibold my-2">Rating outof(100%) </h5>
+                                        </li>
+
+                                    <li><input type="text" placeholder="10 Percent (%)" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="20 Percent (%)" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="30 Percent (%)" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="40 Percent (%)" style="border: hidden;"></input></li>
+                                    <li><input type="text" placeholder="50 Percent (%)" style="border: hidden;"></input></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-lg">
+                            <thead>
+                                <tr>
+                                    <th>Education</th>
+                                    <th>Start(yr)</th>
+                                    <th>End(yr)</th>
+                                    <th>Cgpa(%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="text" placeholder="Enter school name" style="border: hidden;"></input>
+                                    </td>
+                                    <td><input type="text" placeholder="@2010" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@2016" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@9.2" style="border: hidden;"></input></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" placeholder="Enter college name" style="border: hidden;"></input>
+                                    </td>
+                                    <td><input type="text" placeholder="@2018" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@2020" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@8.7" style="border: hidden;"></input></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="text" placeholder="Enter college name" style="border: hidden;"></input>
+                                    </td>
+                                    <td><input type="text" placeholder="@2020" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@2024" style="border: hidden;"></input></td>
+                                    <td><input type="text" placeholder="@9.2" style="border: hidden;"></input></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                
+                    <div class="card-footer"> <span class="text-muted">This is with reference to the job posting on LinkedIn for the position of Cryptographer
+                         in your esteemed organisation. I have carefully read the job description. I have also browsed through your official website to 
+                         understand the kind of work you do, and I am interested in working with you.</span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
